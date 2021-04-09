@@ -10,16 +10,21 @@
   </head>
 
   <body>
-    <div class="scores"><a href="highscores.html">View Highscores</a></div>
+    <div class="scores"><a href="topscores.html">View Topscores</a></div>
 
     <div class="timer">Time: <span id="time">0</span></div>
 
     <div class="wrapper">
       <div id="start-screen" class="start">
-        <h1>Coding Quiz Challenge</h1>
+        <style>
+          body{
+            background-image: url("/Users/avi/Desktop/github/Week4/02-Homework/Assets/codingphoto.jpeg");
+          }
+          </style>
+        <h1>Code Quiz Challenge</h1>
         <p>
-          Try to answer the following code-related questions within the time
-          limit. Keep in mind that incorrect answers will penalize your
+          Try to solve the following coding questions within the time
+          limit. Remember that incorrect answers will penalize your
           score/time by ten seconds!
         </p>
         <button id="start">Start Quiz</button>
@@ -31,7 +36,7 @@
       </div>
 
       <div id="end-screen" class="hide">
-        <h2>All done!</h2>
+        <h2>Finished!</h2>
         <p>Your final score is <span id="final-score"></span>.</p>
         <p>
           Enter initials: <input type="text" id="initials" max="3" />

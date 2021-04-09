@@ -1,4 +1,4 @@
-// list of all questions, choices, and answers
+// Coding questions, choices, and answers
 var questions = [
   {
     title: "What are the Boolean data type values?",
