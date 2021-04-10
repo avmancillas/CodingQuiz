@@ -1,18 +1,18 @@
-// Coding questions, choices, and answers
-var questions = [
+// Coding questions, options, and answers
+var question = [
   {
     title: "What are the Boolean data type values?",
-    choices: ["strings", "True and False", "symbols", "numbers"],
+    options: ["strings", "True and False", "symbols", "numbers"],
     answer: "True and False"
   },
   {
     title: "JQuery is to JavaScript, like Bootstrap is to ____.",
-    choices: ["HTML", "ReadMe files", "CSS", "GitHub"],
+    options: ["HTML", "ReadMe files", "CSS", "GitHub"],
     answer: "CSS"
   },
   {
     title: "What number does the index of an Array start with?",
-    choices: [
+    options: [
       "2",
       "1",
       "0",
@@ -22,12 +22,12 @@ var questions = [
   },
   {
     title: "Inside what HTML elements do you put JavaScript:",
-    choices: ["<Script>", "<JS>", "<JavaScript>", "<JScript>"],
+    options: ["<Script>", "<JS>", "<JavaScript>", "<JScript>"],
     answer: "<Script>"
   },
   {
     title: "What is the format to add comments to JavaScript?",
-    choices: ["//*insert comment here", "//insert comment here//", "//!insert comment here", "//insert comment here"],
+    options: ["//*insert comment here", "//insert comment here//", "//!insert comment here", "//insert comment here"],
     answer: "//insert comment here"
   }
 ];
