@@ -14,10 +14,10 @@
   *[Guidelines](#guidelines)
 
   
-  # **Description**
+  # **Description:**
   ### This is a coding quiz that that includes multiple choice questions.
  ![screenshot 1](assets/screenshot.png)  
-  # **Usage**
+  # **Usage:**
   ### For this specific project, you will answer multiple choice questions during a set time frame.
   
    
